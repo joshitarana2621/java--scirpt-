@@ -57,4 +57,22 @@ console.log(Object.entries(user));//returns key and value each with it's own sub
 
 console.log(user.hasOwnProperty('isLoggedIn')); // check it present or not and prevent from program crash
 
+//object de-structure->rename any element to easily access
 
+const student = {
+    name: "tarana",
+    student_id_number: "25fcn033",
+    course: "btech -ce"
+}
+console.log(student.student_id_number);
+const { student_id_number: SID } = student;
+console.log(SID);
+
+//An API(Application Programming Interface) is a set of rules that allows different software applications to talk to each other.
+// It acts as a digital messenger that takes a request from one system, delivers it to another, and brings the response back.
+//when we call api it returns value in array or in object
+
+//json 
+//{
+// "name": "value",
+//}
